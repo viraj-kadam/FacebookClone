@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Facebook Clone' });
 });
 
+router.get('/login', function(req, res, next) {
+  res.render('login', { title: 'Facebook Clone' });
+});
+
 module.exports = router;
